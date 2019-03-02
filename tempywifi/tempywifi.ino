@@ -75,7 +75,7 @@ void loop() {
     return;
   }
 
-  // Compute heat index in Fahrenheit (the default) agrego algo
+  // Compute heat index in Fahrenheit (the default) agrego otra
   float hif = dht.computeHeatIndex(f, h);
   // Compute heat index in Celsius (isFahreheit = false)
   float hic = dht.computeHeatIndex(t, h, false);
